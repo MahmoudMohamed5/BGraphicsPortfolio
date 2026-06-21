@@ -133,11 +133,17 @@ nav {
 }
 .img1 {
   position: absolute;
-  right:  -14px;
+  right: -14px;
   top: 10px;
 }
 .img2 {
   position: absolute;
   bottom: 10px;
   right: 0px;
+}
+.h-separator{
+  width: 699px;
+  height: 2px;
+  margin: 0px auto;
+  background-image: url(images/H-Separator.png);
 }
