@@ -5,16 +5,23 @@
 body {
   background-color: #3d5056;
 }
-main{
-    width: 960px;
-    height: auto;
-    margin: 0px auto;
+main {
+  width: 960px;
+  height: auto;
+  margin: 0px auto;
 }
-header{
-    width: 960px;
-    height: 100px;
+header {
+  width: 960px;
+  height: 100px;
 }
 header img {
-    margin-top: 15px;
-    margin-left: 50px;
+  margin-top: 15px;
+  margin-left: 50px;
+}
+nav {
+  height: 48px;
+  width: 938px;
+  border: solid 1px #394a51;
+  margin-left: 10px;
+  background-image: linear-gradient(#526872, #2a3a41);
 }
