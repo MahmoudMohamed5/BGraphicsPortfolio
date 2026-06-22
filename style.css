@@ -176,5 +176,39 @@ nav {
   position: absolute;
   bottom: 10px;
   right: 30px;
-  opacity: .6;
+  opacity: 0.6;
+}
+footer {
+  height: 40px;
+  display: flex;
+  padding-top: 20px;
+}
+.footer-nav {
+  list-style: none;
+  margin-left: 100px;
+}
+.footer-nav li {
+  float: left;
+  border-right: solid 1px #fff;
+  padding: 0px 10px;
+}
+.footer-nav li a {
+  color: white;
+  text-decoration: none;
+  font-size: 14px;
+  font-family: arial;
+}
+.footer-nav li a:hover {
+  color: #b5de26;
+  text-decoration: underline;
+}
+footer p {
+  color: white;
+  margin: 0px 40px;
+  font-size: 14px;
+  font-family: arial;
+}
+footer span {
+  color: #b5de26;
+  font-size: 18px;
 }
